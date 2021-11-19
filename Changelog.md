@@ -9,6 +9,7 @@ OpenCore Changelog
 - Fixed Alder Lake SMBIOS CPU model information
 - Added XCPM CPU power management ACPI table for Intel Alder Lake
 - Updated draw order to avoid graphics tearing in OpenCanopy
+- Added `EnableVmx` quirk to allow virtualization in other OS on some Macs
 
 #### v0.7.5
 - Revised OpenLinuxBoot documentation
