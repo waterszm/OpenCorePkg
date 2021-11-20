@@ -844,7 +844,7 @@ OcLoadUefiSupport (
 
   if (Config->Uefi.Quirks.EnableVmx) {
     Status = OcCpuEnableVmx ();
-    DEBUG ((EFI_ERROR (Status) ? DEBUG_WARN : DEBUG_INFO, "OC: VMX enabled - %r\n", Status));
+    DEBUG ((EFI_ERROR (Status) ? DEBUG_WARN : DEBUG_INFO, "OC: Enable VMX - %r\n", Status));
   }
 
   if (Config->Uefi.Quirks.TscSyncTimeout > 0) {

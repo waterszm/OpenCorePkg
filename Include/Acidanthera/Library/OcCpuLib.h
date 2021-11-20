@@ -295,7 +295,7 @@ OcCpuCorrectFlexRatio (
 
   REF: https://github.com/acidanthera/bugtracker/issues/1870
   REF: https://www.thomas-krenn.com/en/wiki/Activating_the_Intel_VT_Virtualization_Feature (via rEFInd)
-  REF: p.1296 of 'Intel 64 and IA-32 Architectures Software Developer's Manual Volume 3'
+  REF: 'Intel 64 and IA-32 Architectures Software Developer's Manual Volume 3', p.1296 etc.
 **/
 EFI_STATUS
 OcCpuEnableVmx (
