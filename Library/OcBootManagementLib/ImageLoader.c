@@ -500,7 +500,7 @@ InternalDirectExit (
   // If the image has been started, verify this image can exit.
   //
   if (ImageHandle != mCurrentImageHandle) {
-    DEBUG ((DEBUG_LOAD|DEBUG_ERROR, "Exit: Image is not exitable image\n"));
+    DEBUG ((DEBUG_LOAD|DEBUG_ERROR, "OCB: Image is not exitable image\n"));
     gBS->RestoreTPL (OldTpl);
     return EFI_INVALID_PARAMETER;
   }
